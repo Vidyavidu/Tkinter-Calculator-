@@ -11,7 +11,7 @@ import math
 class ScientificCalculator:
     def __init__(self, root):
         self.root = root
-        self.root.title("Scientific Calculator")
+        self.root.title("Scientific Calculator App")
         self.root.configure(bg="#293C4A", padx=10, pady=10)
         self.root.resizable(False, False)
         
